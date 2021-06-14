@@ -1,0 +1,31 @@
+.inner{
+    
+    .title{
+        margin-top: 8rem;
+        color: #ffffff;
+        font-size: 2.1rem;
+    }
+
+form{
+    margin-bottom: 4rem;;
+}
+.content{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-items:baseline;
+    gap: 2rem;
+    align-items: center;
+
+    article{
+        image{
+           
+        }
+        img{
+            width:100%;
+        }
+    }
+
+
+}
+
+}

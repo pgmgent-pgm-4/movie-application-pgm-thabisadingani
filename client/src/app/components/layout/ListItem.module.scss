@@ -1,0 +1,44 @@
+
+.projectlistItem{
+    padding: 0.5rem;
+    background-color:rgba(42, 42, 42, 0.582);
+    transition: all .2s ease-in-out;
+    h3{
+        font-weight: 600;
+        
+    }
+    a{
+        text-decoration: none;
+        font-size:1.2rem;
+        color:white;
+        font-weight: 400;
+    }
+    footer{
+        display: flex;
+        align-items: baseline;
+        justify-content:space-between;
+        p{
+            display:flex;
+            color: rgb(197, 196, 196);
+            align-items: center;
+           
+        span{
+            font-size:1.1rem;
+            padding-left: .5rem;
+        }
+
+        }
+    }
+    article{
+        image{
+        }
+        img{
+            width:100%;
+        }
+    }
+
+}
+
+.projectlistItem:hover{
+    background-color:rgba(112, 111, 111, 0.582);
+}

@@ -1,0 +1,33 @@
+body{
+    background-color:  #26183a;
+    color: #ffffff;
+}
+.page{
+   width: 80rem;
+   margin: 0 auto;
+   max-width: 100%;
+     display: flex;
+     justify-content: center;
+     align-items:center;
+    .containerInner{
+        margin-top: 10rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+     form{
+        input{margin-right:0.5rem ;
+        border-radius: 2rem;
+        }
+     }
+     label{
+         font-size:1.5rem
+     }
+     button{
+        font-size: 1.2rem;
+        width: 10rem;
+        border-radius: 2rem;
+     }
+
+   
+}
