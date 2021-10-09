@@ -21,7 +21,7 @@ const Hero = () => {
   return (
     error ? <Error>{error}</Error> : isLoading || !movies ? <Loading /> :
       <div className={styles.inner}>  
-      {movies.results.length > 0 && movies.results.slice(7, 8).map(movie => {
+      {movies.results.length > 0 && movies.results.slice(16, 17).map(movie => {
            return (
              <section key={movie.id} className={styles.content} style={{ backgroundImage: `url(${large}/${movie.poster_path})` }}>
                <div className={styles.hero}>

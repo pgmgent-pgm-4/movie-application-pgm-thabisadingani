@@ -25,11 +25,18 @@ form{
 }
 
 .projectlistItem{
+    width:35rem;
     display: flex;
     p {
         font-size: 1rem;
     }
-    img{
+    .img{
         width: 4rem;
+
+    }
+
+    img{
+        width: 100%;
     }
 }
+

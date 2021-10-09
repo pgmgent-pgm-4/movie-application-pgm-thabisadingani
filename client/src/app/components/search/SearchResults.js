@@ -13,7 +13,7 @@ const SearchResults = ({ query }) => {
     <ul className={styles.listItem}>
       {searchResults.results.map(item => {
             return (
-                <li>
+                <li style={styles.tryList}>
                   <SearchListSuggest key={item.id} movie={item} />
                 </li>
             )

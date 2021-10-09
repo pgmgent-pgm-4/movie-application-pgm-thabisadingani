@@ -5,10 +5,9 @@ import React from 'react'
 export default {
   title: 'Button',
   component: Button,
-
 }
 
-export const Secondary = () => <Button type='secondary' ></Button>
+export const Secondary = () => <Button type='secondary'></Button>
 
 export const Tamplate = (args) => <Button {...args}></Button>
 

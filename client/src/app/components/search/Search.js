@@ -23,10 +23,10 @@ const Search = () => {
     history.push({
         pathname: '/search',
         search: '?query='+ query,
-        state: { data: query }
+        //state: { data: query }
     });
-
-
+    // reset after enter
+    setQuery("");
  };
 
   return (

@@ -1,5 +1,8 @@
 .listItem{
   display: flex;
+  flex-direction: column;
+  flex-basis: 20%;
+  
     padding: 0;
     margin: 0;
     position:absolute;
@@ -9,10 +12,19 @@
     left:0;
     width: 100%;
 
-    overflow:auto;
+    overflow:hidden;
+    white-space: nowrap;
+    overflow-x: scroll;
+
 
     .projectlistItem{
         margin-top:2rem;
+        display: flex;
+        flex-direction: row;
     }
+    
 
+}
+img{
+    width:4rem
 }

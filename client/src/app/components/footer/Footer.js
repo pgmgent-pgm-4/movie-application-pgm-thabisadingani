@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './Header.module.scss';
 
-const Header = ({ children}) => {
+const Footer = ({ children}) => {
 
   return (
     <button className={styles[type]}>
@@ -11,4 +11,4 @@ const Header = ({ children}) => {
 
 }
 
-export default Header;
+export default Footer;
