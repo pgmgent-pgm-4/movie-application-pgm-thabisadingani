@@ -19,7 +19,7 @@ function App() {
       <FirebaseProvider>
         <AuthProvider>
           <FirestoreProvider>
-            <Router>
+            <Router basename={'movie-application-pgm-thabisadingani'}>
               <Switch>
                   <Route exact path={Routes.LANDING} component={ HomePage }/>
                   <Route from={Routes.HOME} to={Routes.LANDING}/>
