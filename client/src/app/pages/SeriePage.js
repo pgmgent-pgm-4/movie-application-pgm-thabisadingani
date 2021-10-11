@@ -43,7 +43,9 @@ const SeriePage = () => {
         </ul>
 
         <h3 className={styles.content__title}>Trailer | { item.name }</h3>
-        <Iframe key={item3.id} item3={item3}/>
+      
+         <Iframe key={item3.id} item3={item3}/>
+      
         <h3 className={styles.content__title}>Similar Series: </h3>
         <ul className={styles.content__inner}>
           {item2.results.length > 0 && item2.results.slice(0, 8).map(item => {
