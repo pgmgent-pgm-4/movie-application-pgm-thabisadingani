@@ -11,7 +11,7 @@ const useFetchSimillar = ({endpoint, type = 'multi', input = '', similar ,  page
   const [error, setError] = useState(null);
   const [isLoading, setIsLoading] = useState(true);
 
-  const API_MOVIE_DB = `https://api.themoviedb.org/3/${endpoint}/${type}/${similar}?api_key=${process.env.REACT_APP_API_KEY}&append_to_response=videos&page=${page}&include_adult=false&query=${input}`;
+  const API_MOVIE_DB = `https://api.themoviedb.org/3/${endpoint}/${type}/${similar}?api_key=${process.env.REACT_APP_MOVIE_KEY}&append_to_response=videos&page=${page}&include_adult=false&query=${input}`;
   
 
   useEffect(() => {
