@@ -34,13 +34,13 @@ In the project directory, you can run:
 ### `npm start` inside the client folder
  
 #### Home page:
-![Home page](images/homePage.png.png)
+![Home page](images/homePage.png)
 
 #### Search Page:
-![Home page](images/searchPage.png.png)
+![Search page](images/searchPage.png)
 
 #### Detail Page:
-![Home page](images/detailPage.png.png)
+![Detail page](images/detailPage.png)
 
 #### Movie Page:
-![Home page](images/moviePage.png.png)
+![Movie page](images/moviePage.png)
